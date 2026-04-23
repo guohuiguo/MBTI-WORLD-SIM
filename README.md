@@ -101,7 +101,7 @@
 
 ## 项目结构
 
-下面是一个典型结构示意：
+大致结构示意：
 
 ```text
 mbti-world-sim/
@@ -130,16 +130,12 @@ mbti-world-sim/
 └─ README.md
 ```
 
-> 你的实际目录可能略有差异，但只要后端入口是 `backend/app/main.py`，前端是标准 Vite React 项目，就可以按本文档运行。
-
----
-
 ## 快速开始
 
 ## 1. 克隆项目
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/guohuiguo/MBTI-WORLD-SIM
 cd mbti-world-sim
 ```
 
@@ -154,6 +150,13 @@ cd mbti-world-sim
 ```bash
 conda create -n mbti_sim python=3.10 -y
 conda activate mbti_sim
+```
+新建项目文件夹:
+
+```bash
+cd D:\
+mkdir MBTI-WORLD-SIM
+cd MBTI-WORLD-SIM
 ```
 
 进入后端目录：
@@ -218,11 +221,6 @@ npm run dev
 ```env
 GEMINI_API_KEY=your_api_key
 ```
-
-> 注意：
-> - 变量名必须是 `GEMINI_API_KEY`
-> - 不要把真实 key 提交到 GitHub
-
 
 ### 前端 `frontend/.env`
 
