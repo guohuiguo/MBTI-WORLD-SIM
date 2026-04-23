@@ -1,0 +1,12 @@
+frontend/node_modules/
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+dist/
+build/
+*.log
